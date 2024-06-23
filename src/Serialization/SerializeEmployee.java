@@ -6,7 +6,7 @@ import java.io.ObjectOutputStream;
 
 public class SerializeEmployee {
     public static void main(String[] args) {
-        Employee emp = new Employee("John Doe", 30, 50000);
+        Employee emp = new Employee("John Doe", 25, 50000);
         try {
             FileOutputStream fileOut = new FileOutputStream("employee.ser");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);

@@ -23,7 +23,7 @@ public class Dog extends Animal{
 	 * If I am overriding any method then In order to call method which is overriden, use "super" keyword
 	 * other than that case, calling method directly will work.
 	 * 
-	 *In method, super.MethodName() should necessarily be 1st line of the method. 
+	 *In constructor, super.constructorname() of superclass should necessarily be 1st line of the method. 
 	 * 
 	 * 
 	 * 

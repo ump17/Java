@@ -52,6 +52,23 @@ public class ListExamples {
 			// System.out.println(fruitsName);
 		 }
 		 
+		 
+		 //
+		// array input 
+	        String students[] = { "Kamlesh", "Abhay", 
+	                              "Abhishek", "Shivansh" }; 
+	  
+	        // printing input elements for comparison 
+	        System.out.println("Array input: "
+	                           + Arrays.toString(students));
+	  
+	        // converting array into Collection 
+	        // with asList() function 
+	        List<String> studentList = Arrays.asList(students); 
+	  
+	        // print converted elements 
+	        System.out.println("Converted elements: "
+	                           + studentList); 
 		
 	}
 	

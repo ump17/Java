@@ -8,6 +8,8 @@ public class Main {
 		System.out.println(myDog.name);
 		System.out.println(myDog.age);
 		System.out.println(myDog.foodPreference);
+		
+		myDog.makeNoise();
 	}
 
 }
