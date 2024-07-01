@@ -60,11 +60,11 @@ class MainComparator {
 							+ movie.getYear());
 
 		// Uses Comparable to sort by year
-		System.out.println("\nSorted by year");
-		Collections.sort(list);
-		for (Movie movie : list)
-			System.out.println(movie.getYear() + " "
-							+ movie.getRating() + " "
-							+ movie.getName() + " ");
+//		System.out.println("\nSorted by year");
+//		Collections.sort(list);
+//		for (Movie movie : list)
+//			System.out.println(movie.getYear() + " "
+//							+ movie.getRating() + " "
+//							+ movie.getName() + " ");
 	}
 }

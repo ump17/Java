@@ -74,7 +74,7 @@ public class Main {
 			}
 			
 			if (methods.getName().equals("thisIsAPublicStaticMethod")) {
-				methods.setAccessible(true);
+				//methods.setAccessible(true);
 				try {
 					methods.invoke(null);
 				} catch (Exception e) {

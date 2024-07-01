@@ -45,6 +45,8 @@ class HashMapExample {
 		    String value = entry.getValue();
 		    System.out.println("Key: " + key + ", Value: " + value);
 		}
+		
+		map.forEach((key,value)-> System.out.println(key +"= "+ value));
 
 
 	}

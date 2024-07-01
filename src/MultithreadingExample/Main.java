@@ -18,12 +18,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		for (int i = 0; i < 5; i++) {
-			synchronized(Main.class) {
-				MultiThr thread = new MultiThr(i);
-				thread.start(); // try run() to see difference
-			}
+		for (int i = 0; i < 5; i++) {	
+//				MultiThr thread = new MultiThr(i);
+//				thread.start(); //  when extending thread class
 			
+			RunnableMultithreading myObj = new RunnableMultithreading(i);
+			Thread myThread = new Thread(myObj);
+			myThread.start();
 		}
 
 	}

@@ -12,7 +12,8 @@ public class HashMapExample {
 		map.put(3,"three");
 		map.put(1,"one");
 		map.put(2,"two");
-
+		
+		System.out.println(map);
 
 		for( Map.Entry<Integer, String>  e : map.entrySet()) {
 			System.out.println("Key: " + e.getKey()
