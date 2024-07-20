@@ -35,9 +35,10 @@ public class NetworkConnection implements Cloneable{
 		this.data = data;
 	}
 
-	public void loadVeryImpData() {
+	public void loadVeryImpData() throws InterruptedException {
 		// Suppose it is taking alot of time
 		this.data = "This is imp data";
+		Thread.sleep(5000);
 		
 		this.domain.add("Goog.com");
 		this.domain.add("meta.com");

@@ -8,7 +8,7 @@ public class Main {
 		//Iphone charger
 		//ChargerXYZ charger = new ChargerXYZ();
 		
-		AdapterCharger charger = new AdapterCharger(new DKCharger());
+		AppleCharger charger = new AdapterCharger(new DKCharger());
 		
 		Iphone13 iphone13 = new Iphone13(charger);
 		iphone13.chargeIphone();

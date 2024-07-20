@@ -5,7 +5,7 @@ public class Jalebi {
 	//eager way of creating single object
 	private static Jalebi jalebi = new Jalebi();
 	
-	public static Jalebi getJalebi() {
+	public synchronized static Jalebi getJalebi() {
 		return jalebi;
 	}
 	

@@ -21,7 +21,7 @@ public class YoutubeChannel implements Subject{
 	}
 
 	@Override
-	public void notifyChanges() {
+	public void newVideoUploaded() {
 		//Only once call this method, and it will notify all the subscribers
 		for(Observer ob: this.subscribers) {
 			ob.notified();

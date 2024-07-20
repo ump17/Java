@@ -6,6 +6,6 @@ public interface Subject {
 	void unsubscribe(Observer ob);
 	
 	//This will notify the Observer/Subscriber
-	void notifyChanges();
+	void newVideoUploaded();
 
 }

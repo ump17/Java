@@ -2,7 +2,7 @@ package PrototypePattern;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		NetworkConnection conn1 = new NetworkConnection();
 		conn1.setIp("192.145");

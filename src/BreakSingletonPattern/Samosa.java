@@ -8,8 +8,8 @@ public class Samosa {
 
 	private Samosa() {
 		System.out.println("called constructor.");
-		if(samosa!=null)
-			throw new RuntimeErrorException(null, "You're trying to break singleton patter");
+//		if(samosa!=null)
+//			throw new RuntimeErrorException(null, "You're trying to break singleton patter");
 	}
 
 	// Lazy way of creating object
