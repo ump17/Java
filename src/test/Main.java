@@ -1,6 +1,6 @@
 package test;
 
-public class NSETest {
+public class Main {
 	
 	public static void main(String[] args) {
 		int[] firstOne = {1,2,7,8};
