@@ -5,23 +5,21 @@ import java.util.Scanner;
 public class BubbleSort {
 
 	static void bubbleSort(int arr[], int n) {
-		int i, temp;
-		boolean swapped = true;
-
-		while (swapped) {
-			swapped = false;
-			for (i = 0; i < n - 1; i++) { // since we are comparing to next ele, then there's no point to going to last
-											// element
-				if (arr[i] > arr[i + 1]) {
-					swapped = true;
-					// Swap if e1>e2
+		int temp;
+		boolean swappedSomething = true;
+		
+		while(swappedSomething) {
+			swappedSomething = false;
+			for(int i=0;i< n-1;i++) {
+				if(arr[i]>arr[i+1]) {
+					swappedSomething = true;
 					temp = arr[i];
-					arr[i] = arr[i + 1];
-					arr[i + 1] = temp;
+					arr[i] = arr[i+1];
+					arr[i+1]= temp;
 				}
 			}
 		}
-
+		
 	}
 
 	// Function to print an array
