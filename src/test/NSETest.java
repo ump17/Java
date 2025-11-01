@@ -14,9 +14,7 @@ public class NSETest {
 		int i = 0;    //1
 		int j = 0;  //3
 		int k =0;
-		
-	
-			
+				
 			while(i< n1 && j< n2) {
 				if(firstOne[i]<secondOne[j]) {
 					result[k] = firstOne[i]; // res = [ 1,2,3,4,5,4]
@@ -47,11 +45,7 @@ public class NSETest {
 			for(int  l =0;l < result.length; l++) {
 				System.out.println(result[l]);
 			}
-
-		
-		
-		
-		
+	
 	}
 
 }
